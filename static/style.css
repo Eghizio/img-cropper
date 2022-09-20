@@ -12,7 +12,23 @@
     justify-content: space-between;
 }
 
+.hidden {
+    display: none;
+}
+
+.before-upload {
+    text-align: center;
+}
+
 .img{
     width: 300px;
     height: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+body {
+    font-family: sans-serif;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #f2f2f2;
 }

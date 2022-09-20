@@ -12,11 +12,22 @@
 </head>
 <body>
     <header class="column">
-        <h1>hello there</h1>
+        <h1>Image Cropper</h1>
     </header>
-    <div class="row" id="imgs">
-        <img class="img" id="img" src="" alt="img" >
-        <img class="img" id="img-response" src="" alt="img-response" >
+    <!-- Before Upload -->
+    <div class="before-upload">
+        <h3>Paste the screenshot to crop.</h3>
+    </div>
+    <!-- After Upload -->
+    <div class="hidden row after-upload" id="imgs">
+        <div>
+            <h3>Original Image</h3>
+            <img class="img" id="img" src="" alt="img" >
+        </div>
+        <div>
+            <h3>Server Response</h3>
+            <img class="img" id="img-response" src="" alt="img-response" >
+        </div>
     </div>
 </body>
 </html>
