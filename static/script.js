@@ -38,6 +38,9 @@ const handlePaste = (event) => {
             reader.readAsDataURL(blob);
         }
     }
+
+    document.querySelector(".before-upload").classList.add("hidden");
+    document.querySelector("#imgs").classList.remove("hidden");
 };
 
 document.addEventListener("paste", handlePaste);
